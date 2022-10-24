@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../image/backgroundLp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  display: grid;
+}
+
+.img-logo {
+  margin: 30px;
+  width: 180px;
+}
+
+.formBody {
+  width: 460px;
+  margin: 30px auto;
+  border-radius: 10px;
+  background-color: $primary-color;
+}
+
+.btnSend {
+  background-color: transparent;
+  color: $secondary-color;
+  border: 1px solid $secondary-color;
+  margin-bottom: 15px;
+}
+
+.btnSend:hover {
+  background-color: $secondary-color;
+  color: white;
+}
